@@ -1,0 +1,46 @@
+/* fs = font-size and line height */
+/* fw= font-weight */
+.fs-xl {
+    font-size: 3rem;
+    line-height: 4rem;
+}
+
+.fs-l {
+    font-size: 2rem;
+    line-height: 3rem;
+}
+
+.fs-m {
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+.fs-s {
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.fs-xs {
+    font-size: 0.5rem;
+    line-height: 1rem;
+}
+
+.fw-light {
+    font-weight: 300;
+}
+
+.fw-regular {
+    font-weight: 400;
+}
+
+.fw-semibold {
+    font-weight: 600;
+}
+
+.fw-bold {
+    font-weight: 700;
+}
+
+.fw-black {
+    font-weight: 900;
+}

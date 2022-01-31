@@ -1,0 +1,48 @@
+.avatar {
+    border-radius: 50%;
+}
+
+.avatar_normal {
+    width: 50px;
+    height: 50px;
+}
+
+.avatar_small {
+    width: 30px;
+    height: 30px;
+}
+
+.avatar_large {
+    width: 70px;
+    height: 70px;
+}
+
+.avatar-1 {
+    width: 16px;
+    height: 16px;
+}
+
+.avatar-2 {
+    width: 24px;
+    height: 24px;
+}
+
+.avatar-3 {
+    width: 32px;
+    height: 32px;
+}
+
+.avatar-4 {
+    width: 48px;
+    height: 48px;
+}
+
+.avatar-5 {
+    width: 56px;
+    height: 56px;
+}
+
+.avatar-6 {
+    width: 64px;
+    height: 64px;
+}

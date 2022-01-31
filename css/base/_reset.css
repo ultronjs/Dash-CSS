@@ -1,0 +1,24 @@
+/* html,
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+} */
+ol,
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img,
+iframe,
+video {
+    max-inline-size: 100%;
+}
+ion-icon {
+    height: 2rem;
+    width: 2rem;
+}
