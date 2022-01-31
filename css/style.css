@@ -1,0 +1,30 @@
+/*---Google Font---*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+/*---Components Design---*/
+@import url("components/avatar.css");
+
+/*---Abstracts---*/
+
+@import url("abstracts/_variables.css");
+@import url("abstracts/_spacing.css");
+
+/*---Base---*/
+
+@import url("base/_reset.css");
+@import url("base/_typography.css");
+
+/*---Layout---*/
+@import url("layout/_position.css");
+@import url("layout/_display.css");
+
+/*---Font---*/
+body {
+    font-family: "Open Sans", "Helvetica", "sans-serif";
+}
+
+h1,
+h2,
+h3 {
+    font-family: "Montserat", "sans-serif";
+}

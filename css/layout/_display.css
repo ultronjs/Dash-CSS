@@ -1,0 +1,40 @@
+/* flex */
+
+.flex {
+    display: flex;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.flex-center {
+    align-items: center;
+    justify-content: center;
+}
+
+/* grid */
+
+.grid {
+    display: grid;
+}
+
+.transition {
+    transition: .2s all;
+}
+
+.list-reset {
+    list-style: none;
+}
+
+.fullwidth {
+    width: 100%;
+}

@@ -1,0 +1,138 @@
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dash CSS</title>
+    <link rel="icon" type="image/x-icon" href="resources/logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../pagesStyle.css">
+    <link rel="stylesheet" href="../../style.css">
+</head>
+
+<body>
+    <nav class="nav_bar">
+        <div class="nav_left_side">
+            <img class="nav_logo" src="../../../resources/logo.png" alt="logo">
+            <span><a class="heading_link" href="google.com">dashcss</a></span>
+        </div>
+        <div class="nav_right_side">
+            <span><a class="heading_link" href="google.com">Docs</a></span>
+            <span><a class="heading_link" href="google.com">Blog</a></span>
+            <span><a class="heading_link" href="google.com">
+                    <i class="header_icon link fa fa-github fa-lg">
+                </a></i>
+            </span>
+        </div>
+
+    </nav>
+    <aside class="sidebar">
+        <ul class="sidebar_list">
+            <li><a class="btn btn_light">Getting Started</a></li>
+            <li><a class="btn btn_light btn_selected">Avatar</a></li>
+            <li><a class="btn btn_light">Alert</a></li>
+            <li><a class="btn btn_light">Badge</a></li>
+            <li><a class="btn btn_light">Button</a></li>
+            <li><a class="btn btn_light">Card</a></li>
+            <li><a class="btn btn_light">Image</a></li>
+            <li><a class="btn btn_light">Input</a></li>
+
+        </ul>
+    </aside>
+    <div class="main_container">
+        <div id="avatar">
+            <h3 class="main_container_heading fs-m py-x-small my-x-small">Avatars</h3>
+            <p class="main_container_description py-x-small my-x-small">Avatars are images that users can set as their profile picture. On GitHub,
+                they're always going to be
+                rounded squares. They can be custom photos, uploaded by users, or generated as Identicons as a
+                placeholder.</p>
+        </div>
+        <div id="avatar_basic_example">
+            <h3 class="main_container_heading fs-m py-x-small my-x-small">Basic Example</h3>
+            <hr>
+            <p class="main_container_description py-x-small my-x-small">Add .avatar to any img element to make it an avatar.</p>
+            <div>
+                <div class="preview_container p-x-small">
+                    <img class="avatar avatar_normal" src="../../../resources/avatar.jpg" alt="">
+                </div>
+                <div>
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=one-dark&wt=none&l=javascript&width=890&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cimg%2520class%253D%2522avatar%2520avatar_normal%2522%2520src%253D%2522http%253A%252F%252Fplacehold.it%252F100x100%2522%2520alt%253D%2522%2522%253E%250A%250A"
+                        style="width: 890px; height: 225px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+
+        <div id="avatar_small_avatar">
+            <h3 class="main_container_heading fs-m py-x-small my-x-small">Small Avatar</h3>
+            <p class="main_container_description py-x-small my-x-small">We occasionally use smaller avatars. Anything less than 24px wide
+                should include the .avatar-small
+                modifier class to reset the border-radius to a more appropriate level.</p>
+            <div>
+                <div class="preview_container p-x-small">
+                    <img class="avatar avatar_small" src="../../../resources/avatar.jpg" alt="">
+                </div>
+                <div>
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=one-dark&wt=none&l=javascript&width=890&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cimg%2520class%253D%2522avatar%2520avatar_small%2522%2520src%253D%2522http%253A%252F%252Fplacehold.it%252F100x100%2522%2520alt%253D%2522%2522%253E%250A%250A"
+                        style="width: 890px; height: 225px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+
+        <div id="avatar_avatar_sizes">
+            <h3 class="main_container_heading fs-m py-x-small my-x-small">Avatar Sizes</h3>
+            <p class="main_container_description py-x-small my-x-small">Instead of using the width and height attribute, you can also use a
+                class like .avatar-[1-8]. The sizes
+                go from 16px up to 64px</p>
+            <div>
+                <div class="preview_container p-x-small">
+                    <img class="avatar avatar-1" src="../../../resources/avatar.jpg" alt="">
+                    <img class="avatar avatar-2" src="../../../resources/avatar.jpg" alt="">
+                    <img class="avatar avatar-3" src="../../../resources/avatar.jpg" alt="">
+                    <img class="avatar avatar-4" src="../../../resources/avatar.jpg" alt="">
+                    <img class="avatar avatar-5" src="../../../resources/avatar.jpg" alt="">
+                    <img class="avatar avatar-6" src="../../../resources/avatar.jpg" alt="">
+
+                </div>
+                <div>
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=one-dark&wt=none&l=javascript&width=890&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cimg%2520class%253D%2522avatar%2520avatar-1%2522%2520src%253D%2522http%253A%252F%252Fplacehold.it%252F100x100%2522%2520alt%253D%2522%2522%253E%250A%253Cimg%2520class%253D%2522avatar%2520avatar-2%2522%2520src%253D%2522http%253A%252F%252Fplacehold.it%252F100x100%2522%2520alt%253D%2522%2522%253E%250A%253Cimg%2520class%253D%2522avatar%2520avatar-3%2522%2520src%253D%2522http%253A%252F%252Fplacehold.it%252F100x100%2522%2520alt%253D%2522%2522%253E%250A%253Cimg%2520class%253D%2522avatar%2520avatar-4%2522%2520src%253D%2522http%253A%252F%252Fplacehold.it%252F100x100%2522%2520alt%253D%2522%2522%253E%250A%253Cimg%2520class%253D%2522avatar%2520avatar-5%2522%2520src%253D%2522http%253A%252F%252Fplacehold.it%252F100x100%2522%2520alt%253D%2522%2522%253E%250A%253Cimg%2520class%253D%2522avatar%2520avatar-6%2522%2520src%253D%2522http%253A%252F%252Fplacehold.it%252F100x100%2522%2520alt%253D%2522%2522%253E%250A%250A"
+                        style="width: 890px; height: 318px; border:0; transform: scale(1); overflow:auto;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <aside class="page_sidebar">
+        <ul class="sidebar_list">
+            <li class="page_sidebar_list_header">On this Page</li>
+            <hr>
+            <li><a class="btn btn_light" href="#avatar">Avatar</a></li>
+            <li><a class="btn btn_light" href="#avatar_basic_example">Basic Example</a></li>
+            <li><a class="btn btn_light" href="#avatar_small_avatar">Small Avatars</a></li>
+            <li><a class="btn btn_light" href="#avatar_avatar_sizes">Avatar Sizes</a></li>
+        </ul>
+    </aside>
+    <footer class='footer'>
+        <div class='footer-header'>Social Media Presence</div>
+        <ul class='social-links list-non-bullet'>
+            <li class='list-item-inline'><a class='footer-link link' href="https://github.com/ultronjs">Github</a></li>
+            <li class='list-item-inline'><a class='footer-link link'
+                    href="https://www.linkedin.com/in/swapnil-bansal">LinkedIn</a></li>
+            <li class='list-item-inline'><a class='footer-link link'
+                    href="https://twitter.com/ultronSwapnil">Twitter</a></li>
+            <li class='list-item-inline'><a class='footer-link link'
+                    href="https://www.instagram.com/ul7ron/">Instagram</a></li>
+        </ul>
+        <div>Designed and built with all the love in the world by the Swapnil🚀</div>
+    </footer>
+
+</body>
+
+</html>
