@@ -1,0 +1,243 @@
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dash CSS</title>
+    <link rel="icon" type="image/x-icon" href="resources/logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../pagesStyle.css">
+    <link rel="stylesheet" href="../../style.css">
+</head>
+
+<body>
+    <nav class="nav_bar">
+        <div class="nav_left_side">
+            <img class="nav_logo" src="../../../resources/logo.png" alt="logo">
+            <span><a class="heading_link" href="google.com">dashcss</a></span>
+        </div>
+        <div class="nav_right_side">
+            <span><a class="heading_link" href="google.com">Docs</a></span>
+            <span><a class="heading_link" href="google.com">Blog</a></span>
+            <span><a class="heading_link" href="google.com">
+                    <i class="header_icon link fa fa-github fa-lg">
+                </a></i>
+            </span>
+        </div>
+
+    </nav>
+    <aside class="sidebar">
+        <ul class="sidebar_list">
+            <li><a class="btn btn_light">Getting Started</a></li>
+            <li><a class="btn btn_light">Avatar</a></li>
+            <li><a class="btn btn_light btn_selected">Alert</a></li>
+            <li><a class="btn btn_light">Badge</a></li>
+            <li><a class="btn btn_light">Button</a></li>
+            <li><a class="btn btn_light">Card</a></li>
+            <li><a class="btn btn_light">Image</a></li>
+            <li><a class="btn btn_light">Input</a></li>
+
+        </ul>
+    </aside>
+    <div class="main_container">
+        <div id="alert">
+            <h3 class="main_container_heading fs-m py-x-small">Alerts</h3>
+            <p class="main_container_description py-x-small">Provide contextual feedback messages for typical
+                user actions with the handful of available and flexible alert messages.</p>
+        </div>
+        <div id="alert_example">
+            <h3 class="main_container_heading fs-m py-x-small">Examples</h3>
+            <hr>
+            <p class="main_container_description py-x-small">Alerts are available for any length of text.For proper styling, use one of the eight required contextual classes
+                (e.g., .alert-success).</p>
+            <div>
+                <div class="preview_container p-x-small">
+                    <div class="alert alert_primary">
+                        A simple primary alert—check it out!
+                    </div>
+                    <div class="alert alert_secondary">
+                        A simple secondary alert—check it out!
+                    </div>
+                    <div class="alert alert_success">
+                        A simple success alert—check it out!
+                    </div>
+                    <div class="alert alert_danger">
+                        A simple danger alert—check it out!
+                    </div>
+                    <div class="alert alert_warning">
+                        A simple warning alert—check it out!
+                    </div>
+                    <div class="alert alert_info">
+                        A simple info alert—check it out!
+                    </div>
+                    <div class="alert alert_light">
+                        A simple light alert—check it out!
+                    </div>
+                    <div class="alert alert_dark">
+                        A simple dark alert—check it out!
+                    </div>
+                </div>
+                <div>
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=one-dark&wt=none&l=javascript&width=890&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520alert_primary%2522%253E%250A%2520%2520%2520%2520A%2520simple%2520primary%2520alert%25E2%2580%2594check%2520it%2520out%21%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert_secondary%2522%253E%250A%2520%2520%2520%2520A%2520simple%2520secondary%2520alert%25E2%2580%2594check%2520it%2520out%21%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert_success%2522%253E%250A%2520%2520%2520%2520A%2520simple%2520success%2520alert%25E2%2580%2594check%2520it%2520out%21%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert_danger%2522%253E%250A%2520%2520%2520%2520A%2520simple%2520danger%2520alert%25E2%2580%2594check%2520it%2520out%21%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert_warning%2522%253E%250A%2520%2520%2520%2520A%2520simple%2520warning%2520alert%25E2%2580%2594check%2520it%2520out%21%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert_info%2522%253E%250A%2520%2520%2520%2520A%2520simple%2520info%2520alert%25E2%2580%2594check%2520it%2520out%21%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert_light%2522%253E%250A%2520%2520%2520%2520A%2520simple%2520light%2520alert%25E2%2580%2594check%2520it%2520out%21%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert_dark%2522%253E%250A%2520%2520%2520%2520A%2520simple%2520dark%2520alert%25E2%2580%2594check%2520it%2520out%21%250A%253C%252Fdiv%253E"
+                        style="width: 890px; height: 616px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+        <div id="alert_links_color">
+            <h3 class="main_container_heading fs-m py-x-small">Links Color</h3>
+            <p class="main_container_description py-x-small">Use the .alert-link utility class to quickly
+                provide matching colored links within any alert.</p>
+            <div>
+                <div class="preview_container p-x-small">
+                    <div class="alert alert_primary">
+                        A simple primary alert with <a href="#" class="alert_link">an example link</a>. Give it a click
+                        if you like.
+                    </div>
+                    <div class="alert alert_secondary">
+                        A simple secondary alert with <a href="#" class="alert_link">an example link</a>. Give it a
+                        click if you
+                        like.
+                    </div>
+                    <div class="alert alert_success">
+                        A simple success alert with <a href="#" class="alert_link">an example link</a>. Give it a click
+                        if you like.
+                    </div>
+                    <div class="alert alert_danger">
+                        A simple danger alert with <a href="#" class="alert_link">an example link</a>. Give it a click
+                        if you like.
+                    </div>
+                    <div class="alert alert_warning">
+                        A simple warning alert with <a href="#" class="alert_link">an example link</a>. Give it a click
+                        if you like.
+                    </div>
+                    <div class="alert alert_info">
+                        A simple info alert with <a href="#" class="alert_link">an example link</a>. Give it a click if
+                        you like.
+                    </div>
+                    <div class="alert alert_light">
+                        A simple light alert with <a href="#" class="alert_link">an example link</a>. Give it a click if
+                        you like.
+                    </div>
+                    <div class="alert alert_dark">
+                        A simple dark alert with <a href="#" class="alert_link">an example link</a>. Give it a click if
+                        you like.
+                    </div>
+                </div>
+                <div>
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=one-dark&wt=none&l=javascript&width=890&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520alert_primary%2522%253E%250A%2520%2520%2520%2520A%2520simple%2520primary%2520alert%2520with%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522alert_link%2522%253Ean%2520example%2520link%253C%252Fa%253E.%2520Give%2520it%2520a%2520click%250A%2520%2520%2520%2520if%2520you%2520like.%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert_secondary%2522%253E%250A%2520%2520%2520%2520A%2520simple%2520secondary%2520alert%2520with%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522alert_link%2522%253Ean%2520example%2520link%253C%252Fa%253E.%2520Give%2520it%2520a%2520click%2520%250A%2520%2520%2520%2520if%2520you%2520like.%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert_success%2522%253E%250A%2520%2520%2520%2520A%2520simple%2520success%2520alert%2520with%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522alert_link%2522%253Ean%2520example%2520link%253C%252Fa%253E.%2520Give%2520it%2520a%2520click%250A%2520%2520%2520%2520if%2520you%2520like.%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert_danger%2522%253E%250A%2520%2520%2520%2520A%2520simple%2520danger%2520alert%2520with%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522alert_link%2522%253Ean%2520example%2520link%253C%252Fa%253E.%2520Give%2520it%2520a%2520click%250A%2520%2520%2520%2520if%2520you%2520like.%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert_warning%2522%253E%250A%2520%2520%2520%2520A%2520simple%2520warning%2520alert%2520with%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522alert_link%2522%253Ean%2520example%2520link%253C%252Fa%253E.%2520Give%2520it%2520a%2520click%250A%2520%2520%2520%2520if%2520you%2520like.%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert_info%2522%253E%250A%2520%2520%2520%2520A%2520simple%2520info%2520alert%2520with%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522alert_link%2522%253Ean%2520example%2520link%253C%252Fa%253E.%2520Give%2520it%2520a%2520click%2520if%250A%2520%2520%2520%2520you%2520like.%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert_light%2522%253E%250A%2520%2520%2520%2520A%2520simple%2520light%2520alert%2520with%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522alert_link%2522%253Ean%2520example%2520link%253C%252Fa%253E.%2520Give%2520it%2520a%2520click%2520if%250A%2520%2520%2520%2520you%2520like.%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert_dark%2522%253E%250A%2520%2520%2520%2520A%2520simple%2520dark%2520alert%2520with%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522alert_link%2522%253Ean%2520example%2520link%253C%252Fa%253E.%2520Give%2520it%2520a%2520click%2520if%250A%2520%2520%2520%2520you%2520like.%250A%253C%252Fdiv%253E"
+                        style="width: 890px; height: 750px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+        <div id="alert_additional_content">
+            <h3 class="main_container_heading fs-m py-x-small">Additional Content</h3>
+            <p class="main_container_description py-x-small">Alerts can also contain additional HTML elements
+                like headings, paragraphs and dividers.</p>
+            <div>
+                <div class="preview_container p-x-small">
+                    <div class="alert alert_success">
+                        <h4 class="alert_heading">Well done!</h4>
+                        <p>Aww yeah, you successfully read this important alert message. This example text is going to
+                            run a bit longer
+                            so
+                            that you can see how spacing within an alert works with this kind of content.</p>
+                        <hr>
+                        <p>Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p>
+                    </div>
+                </div>
+                <div>
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=one-dark&wt=none&l=javascript&width=890&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520alert_success%2522%253E%250A%2520%2520%253Ch4%2520class%253D%2522alert_heading%2522%253EWell%2520done%21%253C%252Fh4%253E%250A%2520%2520%253Cp%253EAww%2520yeah%252C%2520you%2520successfully%2520read%2520this%2520important%2520alert%2520message.%2520This%2520example%2520text%2520is%2520going%2520to%2520run%2520a%2520bit%2520longer%2520so%2520that%2520you%2520can%2520see%2520how%2520spacing%2520within%2520an%2520alert%2520works%2520with%2520this%2520kind%2520of%2520content.%253C%252Fp%253E%250A%2520%2520%253Chr%253E%250A%2520%2520%253Cp%253EWhenever%2520you%2520need%2520to%252C%2520be%2520sure%2520to%2520use%2520margin%2520utilities%2520to%2520keep%2520things%2520nice%2520and%2520tidy.%2520%2520%2520%253C%252Fp%253E%250A%253C%252Fdiv%253E"
+                        style="width: 890px; height: 337px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+        <div id="alert_icon">
+            <h3 class="main_container_heading fs-m py-x-small">Icons</h3>
+            <hr>
+            <p class="main_container_description py-x-small">Similarly, you can use flexbox utilities and
+                Font-Awesome Icons to create alerts with icons. Depending on your icons and content, you may want to add
+                more utilities or custom styles.Need more than one icon for your alerts? Consider using more Font-Awesome
+                Icons and making a local SVG sprite like so to easily reference the same icons repeatedly.</p>
+            <div>
+                <div class="preview_container p-x-small">
+                    <div class="alert alert_primary">
+                        <i class="header_icon link fa fa-github fa-lg"></i>
+                        A simple primary alert—check it out!
+                    </div>
+                    <div class="alert alert_secondary">
+                        <i class="header_icon link fa fa-github fa-lg"></i>
+                        A simple secondary alert—check it out!
+                    </div>
+                    <div class="alert alert_success">
+                        <i class="header_icon link fa fa-github fa-lg"></i>
+                        A simple success alert—check it out!
+                    </div>
+                    <div class="alert alert_danger">
+                        <i class="header_icon link fa fa-github fa-lg"></i>
+                        A simple danger alert—check it out!
+                    </div>
+                    <div class="alert alert_warning">
+                        <i class="header_icon link fa fa-github fa-lg"></i>
+                        A simple warning alert—check it out!
+                    </div>
+                    <div class="alert alert_info">
+                        <i class="header_icon link fa fa-github fa-lg"></i>
+                        A simple info alert—check it out!
+                    </div>
+                    <div class="alert alert_light">
+                        <i class="header_icon link fa fa-github fa-lg"></i>
+                        A simple light alert—check it out!
+                    </div>
+                    <div class="alert alert_dark">
+                        <i class="header_icon link fa fa-github fa-lg"></i>
+                        A simple dark alert—check it out!
+                    </div>
+                </div>
+                <div>
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=one-dark&wt=none&l=javascript&width=890&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520alert_primary%2522%253E%253Ci%2520class%253D%2522header_icon%2520link%2520fa%2520fa-github%2520fa-lg%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520A%2520simple%2520primary%2520alert%25E2%2580%2594check%2520it%2520out%21%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert_secondary%2522%253E%253Ci%2520class%253D%2522header_icon%2520link%2520fa%2520fa-github%2520fa-lg%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520A%2520simple%2520secondary%2520alert%25E2%2580%2594check%2520it%2520out%21%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert_success%2522%253E%253Ci%2520class%253D%2522header_icon%2520link%2520fa%2520fa-github%2520fa-lg%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520A%2520simple%2520success%2520alert%25E2%2580%2594check%2520it%2520out%21%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert_danger%2522%253E%253Ci%2520class%253D%2522header_icon%2520link%2520fa%2520fa-github%2520fa-lg%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520A%2520simple%2520danger%2520alert%25E2%2580%2594check%2520it%2520out%21%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert_warning%2522%253E%253Ci%2520class%253D%2522header_icon%2520link%2520fa%2520fa-github%2520fa-lg%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520A%2520simple%2520warning%2520alert%25E2%2580%2594check%2520it%2520out%21%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert_info%2522%253E%253Ci%2520class%253D%2522header_icon%2520link%2520fa%2520fa-github%2520fa-lg%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520A%2520simple%2520info%2520alert%25E2%2580%2594check%2520it%2520out%21%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert_light%2522%253E%253Ci%2520class%253D%2522header_icon%2520link%2520fa%2520fa-github%2520fa-lg%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520A%2520simple%2520light%2520alert%25E2%2580%2594check%2520it%2520out%21%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert_dark%2522%253E%253Ci%2520class%253D%2522header_icon%2520link%2520fa%2520fa-github%2520fa-lg%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520A%2520simple%2520dark%2520alert%25E2%2580%2594check%2520it%2520out%21%250A%2520%253C%252Fdiv%253E%250A"
+                        style="width: 890px; height: 634px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+        
+
+    </div>
+    <aside class="page_sidebar">
+        <ul class="sidebar_list">
+            <li class="page_sidebar_list_header">On this Page</li>
+            <hr>
+            <li><a class="btn btn_light fs-xs" href="#alert">Alert</a></li>
+            <li><a class="btn btn_light fs-xs" href="#alert_example">Examples</a></li>
+            <li><a class="btn btn_light fs-xs" href="#alert_links_color">Link Color</a></li>
+            <li><a class="btn btn_light fs-xs" href="#alert_additional_content">Additional Content</a></li>
+            <li><a class="btn btn_light fs-xs" href="#alert_icon">Alert with Icon</a></li>
+        </ul>
+    </aside>
+    <footer class='footer'>
+        <div class='footer-header'>Social Media Presence</div>
+        <ul class='social-links list-non-bullet'>
+            <li class='list-item-inline'><a class='footer-link link' href="https://github.com/ultronjs">Github</a></li>
+            <li class='list-item-inline'><a class='footer-link link'
+                    href="https://www.linkedin.com/in/swapnil-bansal">LinkedIn</a></li>
+            <li class='list-item-inline'><a class='footer-link link'
+                    href="https://twitter.com/ultronSwapnil">Twitter</a></li>
+            <li class='list-item-inline'><a class='footer-link link'
+                    href="https://www.instagram.com/ul7ron/">Instagram</a></li>
+        </ul>
+        <div>Designed and built with all the love in the world by the Swapnil🚀</div>
+    </footer>
+
+</body>
+
+</html>

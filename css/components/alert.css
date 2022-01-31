@@ -1,0 +1,108 @@
+.alert {
+    padding: 1rem 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+}
+
+.alert_primary {
+    background-color: var(--primary_background);
+    border-color: var(--primary_background);
+    color: var(--primary_color);
+}
+
+.alert_secondary {
+    background-color: var(--secondary_background);
+    border-color: var(--secondary_background);
+    color: var(--secondary_color);
+}
+
+.alert_success {
+    background-color: var(--success_background);
+    border-color: var(--success_background);
+    color: var(--success);
+
+}
+
+.alert_danger {
+    background-color: var(--danger_background);
+    border-color: var(--danger_background);
+    color: var(--danger);
+
+}
+
+.alert_warning {
+    background-color: var(--warning_background);
+    border-color: var(--warning_background);
+    color: var(--warning);
+
+}
+
+.alert_info {
+    background-color: var(--info_background);
+    border-color: var(--info_background);
+    color: var(--info);
+
+}
+
+.alert_light {
+    background-color: var(--light_background);
+    border-color: var(--dark);
+    color: var(--dark);
+
+}
+
+.alert_dark {
+    background-color: var(--dark_background);
+    border-color: var(--dark_background);
+    color: var(--dark);
+
+}
+
+.alert_link {
+    font-weight: 400;
+}
+
+.alert_primary .alert_link {
+    color: var(--primary);
+    text-decoration: underline;
+}
+
+.alert_secondary .alert_link {
+    color: var(--secondary);
+    text-decoration: underline;
+}
+
+.alert_success .alert_link {
+    color: var(--success);
+    text-decoration: underline;
+}
+
+.alert_danger .alert_link {
+    color: var(--danger);
+    text-decoration: underline;
+}
+
+.alert_warning .alert_link {
+    color: var(--warning);
+    text-decoration: underline;
+}
+
+.alert_info .alert_link {
+    color: var(--info);
+    text-decoration: underline;
+}
+
+.alert_light .alert_link {
+    color: var(--dark);
+    text-decoration: underline;
+}
+
+.alert_dark .alert_link {
+    color: var(--dark);
+    text-decoration: underline;
+}
+
+.alert_heading {
+    margin: 0;
+}

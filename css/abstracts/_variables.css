@@ -4,6 +4,11 @@
     /* --secondary: #4B3F72; */
     --secondary-color:#119DA4;
 
+
+    --primary_background: #d1b5f7;
+    /* --secondary_background: #897cb4; */
+    --secondary_background:#74e3e9;
+
     /* Primary Color Different Shades*/
     --primary-100: #f7f3fd;
     --primary-200: #e8dbf9;
@@ -44,6 +49,14 @@
     --danger: #DC3545;
     --light: #F8F9FA;
     --dark: #212529;
+
+    /* Information Color Background*/
+    --success_background: #D1E7DD;
+    --info_background: #CFF4FC;
+    --warning_background: #FFF3CD;
+    --danger_background: #F8D7DA;
+    --light_background: #FEFEFE;
+    --dark_background: #D3D3D4;
 
 /* --------Other Colors-----------*/
     --blue: #0d6efd;
