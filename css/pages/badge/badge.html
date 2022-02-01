@@ -1,0 +1,300 @@
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dash CSS</title>
+    <link rel="icon" type="image/x-icon" href="resources/logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../pagesStyle.css">
+    <link rel="stylesheet" href="../../style.css">
+</head>
+
+<body>
+    <nav class="nav_bar">
+        <div class="nav_left_side">
+            <img class="nav_logo" src="../../../resources/logo.png" alt="logo">
+            <span><a class="heading_link" href="google.com">dashcss</a></span>
+        </div>
+        <div class="nav_right_side">
+            <span><a class="heading_link" href="google.com">Docs</a></span>
+            <span><a class="heading_link" href="google.com">Blog</a></span>
+            <span><a class="heading_link" href="google.com">
+                    <i class="header_icon link fa fa-github fa-lg"></i>
+                </a>
+            </span>
+        </div>
+
+    </nav>
+    <aside class="sidebar">
+        <ul class="sidebar_list">
+            <li><a class="btn_doc btn_doc_light" href="../gettingStarted/gettingStarted.html">Getting Started</a></li>
+            <li><a class="btn_doc btn_doc_light" href="../avatar/avatar.html">Avatar</a></li>
+            <li><a class="btn_doc btn_doc_light" href="../alert/alert.html">Alert</a></li>
+            <li><a class="btn_doc btn_doc_light btn_doc_selected" href="../badge/badge.html">Badge</a></li>
+            <li><a class="btn_doc btn_doc_light" href="../button/button.html">Button</a></li>
+            <li><a class="btn_doc btn_doc_light">Card</a></li>
+            <li><a class="btn_doc btn_doc_light">Image</a></li>
+            <li><a class="btn_doc btn_doc_light">Input</a></li>
+
+        </ul>
+    </aside>
+    <div class="main_container">
+        <div id="badge">
+            <h3 class="main_container_heading fs-m py-x-small my-x-small">Bagde</h3>
+            <p class="main_container_description py-x-small my-x-small">Documentation and examples for badges, our small
+                count and labeling component.</p>
+        </div>
+        <div id="badge_with_text">
+            <h3 class="main_container_heading fs-m py-x-small my-x-small">Badge on Text</h3>
+            <hr>
+            <p class="main_container_description py-x-small my-x-small">By the help of the badge class it will help to highlight any text
+                with the badge on top of it.There are more utility used in styling the below example.
+            </p>
+            <div>
+                <div class="preview_container p-small">
+                    <span class="badge_wrapper">Text With a badge
+                        <span
+                            class="badge badge_primary badge_small position_absolute right-0 top-0">4</span>
+                    </span>
+                    <span class="badge_wrapper">Text With a badge
+                        <span
+                            class="badge badge_primary badge_small position_absolute left-0 top-0">4</span>
+                    </span>
+                    <span class="badge_wrapper">Text With a badge
+                        <span class="badge badge_primary position_absolute right-0 top-0">4</span>
+                    </span>
+                    <span class="badge_wrapper">Text With a badge
+                        <span class="badge badge_primary position_absolute left-0 top-0">4</span>
+                    </span>
+                    <span class="badge_wrapper">Text With a badge
+                        <span class="badge badge_primary badge_large position_absolute right-0 top-0">4</span>
+                    </span>
+                    <span class="badge_wrapper">Text With a badge
+                        <span class="badge badge_primary badge_large position_absolute left-0 top-0">4</span>
+                    </span>
+                </div>
+                <div>
+                    <iframe src="https://www.thiscodeworks.com/embed/61f93e701e1df4001537941a"
+                        style="width: 100%; height: 320px;" frameborder="0">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+
+        <div id="badge_on_button">
+            <h3 class="main_container_heading fs-m py-x-small my-x-small">Badge on button</h3>
+            <p class="main_container_description py-x-small my-x-small">Below is the example of badge on button,here we
+                can use any button here just need to wrap that button tag with badge wrapper class.</p>
+            <div>
+                <div class="preview_container p-x-small">
+                    <span class="badge_wrapper">
+                        <button class="btn btn_primary">Button With a badge
+                        </button>
+                        <span class="badge badge_circle badge_secondary position_absolute right-0">4</span>
+                    </span>
+                    <span class="badge_wrapper">
+                        <button class="btn btn_primary">Button With a badge
+                        </button>
+                        <span class="badge badge_pill badge_secondary position_absolute left-0">44+</span>
+                    </span>
+                    <span class="badge_wrapper">
+                        <button class="btn btn_primary">Button With a badge
+                        </button>
+                        <span class="badge badge_secondary position_absolute right-0 badge_large">4</span>
+                    </span>
+                    <span class="badge_wrapper">
+                        <button class="btn btn_primary">Button With a badge
+                        </button>
+                        <span class="badge badge_secondary position_absolute left-0 badge_large">4</span>
+                    </span>
+                </div>
+                <div>
+                    <iframe src="https://www.thiscodeworks.com/embed/61f93ef31e1df4001537941c"
+                        style="width: 100%; height: 294px;" frameborder="0">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+
+        <div id="badge_toggle_button">
+            <h3 class="main_container_heading fs-m py-x-small my-x-small">Badge on Toggle Button</h3>
+            <p class="main_container_description py-x-small my-x-small">Below is the example of badge on toggle button,here we
+                can use any button here just need to wrap that button tag with badge wrapper class and give that button
+                badge_button_toggle class.</p>
+            <div>
+                <div class="preview_container p-x-small">
+                    <span class="badge_wrapper">
+                        <button class="btn btn_primary badge_button_toggle">Toggle</button>
+                        <span class="badge badge_secondary position_absolute right-0 badge_toggle">4</span>
+                    </span>
+                </div>
+                <div>
+                    <iframe src="https://www.thiscodeworks.com/embed/61f93fa81e1df4001537941e"
+                        style="width: 100%; height: 138px;" frameborder="0">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+
+        <div id="badge_on_icons">
+            <h3 class="main_container_heading fs-m py-x-small my-x-small">Badge on Icons</h3>
+            <p class="main_container_description py-x-small my-x-small">Below is the example of badge on Icon,here we are using Font Awesome Icon.
+                You can use any icon here just need to wrap that icon tag with badge wrapper class.
+                followed by its code</p>
+            <div>
+                <div class="preview_container p-x-small">
+                    <span class="badge_wrapper">
+                        <i class="header_icon link fa fa-github fa-4x"></i>
+                        <span class="badge badge_circle badge_primary position_absolute right-0 badge_small">4</span>
+                    </span>
+                    <span class="badge_wrapper">
+                        <i class="header_icon link fa fa-github fa-4x"></i>
+                        <span class="badge badge_pill badge_primary position_absolute left-0 badge_small">4</span>
+                    </span>
+                    <span class="badge_wrapper">
+                        <i class="header_icon link fa fa-github fa-4x"></i>
+                        <span class="badge badge_pill badge_primary position_absolute left-0">4</span>
+                    </span>
+                    <span class="badge_wrapper">
+                        <i class="header_icon link fa fa-github fa-4x"></i>
+                        <span class="badge badge_circle badge_primary position_absolute right-0">4</span>
+                    </span>
+                </div>
+                <div>
+                    <iframe src="https://www.thiscodeworks.com/embed/61f9400d1e1df4001537941f"
+                        style="width: 100%; height: 294px;" frameborder="0"></iframe>
+                </div>
+            </div>
+        </div>
+
+        <div id="badge_on_avatar">
+            <h3 class="main_container_heading fs-m py-x-small my-x-small">Badge on Avatar</h3>
+            <p class="main_container_description py-x-small my-x-small">Below is the example of badge on Avatar,
+                followed by its code</p>
+            <div>
+                <div class="preview_container p-x-small">
+                    <div class="badge_wrapper">
+                        <img class="avatar avatar_large" src="../../../resources/avatar.jpg" alt="logo">
+                        <span class="badge badge_circle badge_primary position_absolute right-0 top-0 translate-m-lx-ry">4</span>
+                    </div>
+                    <div class="badge_wrapper">
+                        <img class="avatar avatar_large" src="../../../resources/avatar.jpg" alt="logo">
+                        <span class="badge badge_circle badge_primary position_absolute right-0 bottom-0 translate-m-lx-ly">4</span>
+                    </div>
+                    <div class="badge_wrapper">
+                        <img class="avatar avatar_normal" src="../../../resources/avatar.jpg" alt="">
+                        <span class="badge badge_circle badge_primary position_absolute right-0">4</span>
+                    </div>
+                    <div class="badge_wrapper">
+                        <img class="avatar avatar_small" src="../../../resources/avatar.jpg" alt="">
+                        <span class="badge badge_primary badge_small position_absolute right-0">4</span>
+                    </div>    
+                </div>
+                <div>
+                    <iframe src="https://www.thiscodeworks.com/embed/61f940c81e1df40015379423"
+                        style="width: 100%; height: 242px;" frameborder="0">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+
+        <div id="badge_background_color">
+            <h3 class="main_container_heading fs-m py-x-small my-x-small">Background colors</h3>
+            <p class="main_container_description py-x-small my-x-small">
+                Use our badge utility classes to quickly change the appearance of a badge.
+                <div>
+                    <div class="preview_container p-x-small">
+                        <span class="badge badge_primary">Primary</span>
+                        <span class="badge badge_secondary">Secondary</span>
+                        <span class="badge badge_danger">Danger</span>
+                        <span class="badge badge_success">Success</span>
+                        <span class="badge badge_info">Info</span>
+                        <span class="badge badge_warning">Warning</span>
+                        <span class="badge badge_dark">Dark</span>
+                        <span class="badge badge_light">Light</span>
+                    </div>
+                    <div>
+                        <iframe src="https://www.thiscodeworks.com/embed/61f9414b1e1df40015379426"
+                            style="width: 100%; height: 190px;" frameborder="0">
+                        </iframe>
+                    </div>
+                </div>
+        </div>
+
+        <div id="badge_pills_badge">
+            <h3 class="main_container_heading fs-m py-x-small my-x-small">Pill badges</h3>
+            <p class="main_container_description py-x-small my-x-small">
+                Use the .rounded-pill utility class to make badges more rounded with a larger border-radius
+            </p>
+            <div>
+                <div class="preview_container p-x-small">
+                    <span class="badge badge_pill badge_primary">Primary</span>
+                    <span class="badge badge_pill badge_secondary">Secondary</span>
+                    <span class="badge badge_pill badge_danger">Danger</span>
+                    <span class="badge badge_pill badge_success">Success</span>
+                    <span class="badge badge_pill badge_info">Info</span>
+                    <span class="badge badge_pill badge_warning">Warning</span>
+                    <span class="badge badge_pill badge_dark">Dark</span>
+                    <span class="badge badge_pill badge_light">Light</span>
+                </div>
+                <div>
+                    <iframe src="https://www.thiscodeworks.com/embed/61f9411c1e1df40015379425"
+                        style="width: 100%; height: 190px;" frameborder="0">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+
+        <div id="badge_other_example">
+            <h3 class="main_container_heading fs-m py-x-small my-x-small">Badge in Heading and Button</h3>
+            <p class="main_container_description py-x-small my-x-small">
+                Badges scale to match the size of the immediate parent element by using relative font sizing and em
+                units.Badges can be used as part of links or buttons to provide a counter.
+            </p>
+            <div>
+                <div class="preview_container p-x-small">
+                    <h1>Example heading <span class="badge badge_pill badge_primary">New</span></h1>
+                    <button type="button" class="btn btn_secondary">Button 
+                        <span class="badge badge_primary">5</span>
+                    </button>
+                </div>
+                <div>
+                    <iframe src="https://www.thiscodeworks.com/embed/61f941a61e1df40015379427"
+                        style="width: 100%; height: 138px;" frameborder="0">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <aside class="page_sidebar">
+        <ul class="sidebar_list">
+            <li class="page_sidebar_list_header">On this Page</li>
+            <hr>
+            <li><a class="btn_doc btn_doc_light fs-xs" href="#badge">Badge</a></li>
+            <li><a class="btn_doc btn_doc_light fs-xs" href="#badge_with_text">Badge on Text</a></li>
+            <li><a class="btn_doc btn_doc_light fs-xs" href="#badge_on_button">Badge on button</a></li>
+            <li><a class="btn_doc btn_doc_light fs-xs" href="#badge_toggle_button">Badge on Toggle<br> Button</a></li>
+            <li><a class="btn_doc btn_doc_light fs-xs" href="#badge_on_icons">Badge on Icons</a></li>
+            <li><a class="btn_doc btn_doc_light fs-xs" href="#badge_on_avatar">Badge on Avatar</a></li>
+            <li><a class="btn_doc btn_doc_light fs-xs" href="#badge_background_color">Background colors</a></li>
+            <li><a class="btn_doc btn_doc_light fs-xs" href="#badge_pills_badge">Pill badges</a></li>
+            <li><a class="btn_doc btn_doc_light fs-xs" href="#badge_other_example">Badge in Heading<br> and Button</a></li>
+        </ul>
+    </aside>
+    <footer class='footer'>
+        <div class='footer-header'>Social Media Presence</div>
+        <ul class='social-links list-non-bullet'>
+            <li class='list-item-inline'><a class='footer-link link' href="https://github.com/ultronjs">Github</a></li>
+            <li class='list-item-inline'><a class='footer-link link'
+                    href="https://www.linkedin.com/in/swapnil-bansal">LinkedIn</a></li>
+            <li class='list-item-inline'><a class='footer-link link'
+                    href="https://twitter.com/ultronSwapnil">Twitter</a></li>
+            <li class='list-item-inline'><a class='footer-link link'
+                    href="https://www.instagram.com/ul7ron/">Instagram</a></li>
+        </ul>
+        <div>Designed and built with all the love in the world by the Swapnil🚀</div>
+    </footer>
+    <script src="./badge.js"></script>
+
+</body>
