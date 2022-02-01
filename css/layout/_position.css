@@ -113,3 +113,11 @@
 .bottom-100 {
     bottom: 100px
 }
+
+
+.translate-m-lx-ly{
+    transform: translate(-50%, -50%) !important;
+}
+.translate-m-lx-ry {
+    transform: translate(-50%, 50%) !important;
+}
