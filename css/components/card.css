@@ -38,6 +38,27 @@ Actions contains:-Button and Icons*/
 }
 
 
+/* For Only Text cards*/
+.card_only_text{
+    height: fit-content;
+}
+.card_with_dismiss{
+    position: relative;
+}
+
+.card_dismiss{
+    padding: 0.4rem 0.2rem;
+    color:var(--dark);
+    cursor: pointer;
+}
+
+.card_dismiss:hover{  
+    color: var(--white);
+    background-color: var(--dark);
+    border-radius: 50%;;
+
+}
+
 .card_content_image{
     width: 100%;
     border-radius: 0.25rem;
@@ -46,6 +67,9 @@ Actions contains:-Button and Icons*/
 .card_content_image_horizontal {
     width: 40%;
     border-radius: 0.25rem;
+}
+.card_text_over_image{
+    position: relative;
 }
 
 .card_content_header{

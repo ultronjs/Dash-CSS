@@ -92,11 +92,6 @@
     background-color: blue;
 }
 
-.hide {
-    display: none;
-}
-
-
 /*---------------Skin--------------*/
 .badge_primary {
     background-color: var(--primary-color);
