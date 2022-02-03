@@ -1,0 +1,109 @@
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dash CSS</title>
+    <link rel="icon" type="image/x-icon" href="resources/logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../pagesStyle.css">
+    <link rel="stylesheet" href="../../style.css">
+</head>
+
+<body>
+    <nav class="nav_bar">
+        <div class="nav_left_side">
+            <img class="nav_logo" src="../../../resources/logo.png" alt="logo">
+            <span><a class="heading_link" href="#">dashcss</a></span>
+        </div>
+        <div class="nav_right_side">
+            <span><a class="heading_link" href="#">Docs</a></span>
+            <span><a class="heading_link" href="#">Blog</a></span>
+            <span><a class="heading_link" href="#">
+                    <i class="header_icon link fa fa-github fa-lg"></i>
+                    </a>
+            </span>
+        </div>
+
+    </nav>
+    <aside class="sidebar">
+        <ul class="sidebar_list">
+            <li><a class="btn_doc btn_doc_light" href="../gettingStarted/gettingStarted.html">Getting Started</a></li>
+            <li><a class="btn_doc btn_doc_light" href="../avatar/avatar.html">Avatar</a></li>
+            <li><a class="btn_doc btn_doc_light" href="../alert/alert.html">Alert</a></li>
+            <li><a class="btn_doc btn_doc_light" href="../badge/badge.html">Badge</a></li>
+            <li><a class="btn_doc btn_doc_light" href="../button/button.html">Button</a></li>
+            <li><a class="btn_doc btn_doc_light" href="../card/card.html">Card</a></li>
+            <li><a class="btn_doc btn_doc_light btn_doc_selected" href="../image/image.html">Image</a></li>
+            <li><a class="btn_doc btn_doc_light">Input</a></li>
+
+        </ul>
+    </aside>
+    <div class="main_container">
+        <div id="image">
+            <h3 class="main_container_heading fs-m py-x-small my-x-small">Responsive Image</h3>
+            <p class="main_container_description py-x-small my-x-small">Images are used to represent something. Dash CSS
+                has Responsive Images. It will shrink and grow according to Container Size.</p>
+        </div>
+        <div id="image_example">
+            <h3 class="main_container_heading fs-m py-x-small my-x-small">Example of Responsive Images</h3>
+            <hr>
+            <p class="main_container_description py-x-small my-x-small">Below is the example of Responsive Image.To make a image Responsive
+                in your project user just need to add img_responsive class to its img tag.That will make the image Responsivein nature.
+            </p>
+            <div>
+                <div class="preview_container flex flex-center p-x-small">
+                    <img class="img_responsive" src="../../vendors/image1.jpg" alt="">
+                </div>
+                <div>
+                    <iframe src="https://www.thiscodeworks.com/embed/61fbb3136ab14d0015c32d36"
+                        style="width: 100%; height: 99px;" frameborder="0">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+        <div id="image_with_border_radius">
+            <h3 class="main_container_heading fs-m py-x-small my-x-small">Images with different Border Radius</h3>
+            <p class="main_container_description py-x-small my-x-small">This examples shows that ours img_responsive class can be used with other utlitiy class such as br(border-radius)
+                class and to get different types of border radius around images </p>
+            <div>
+                <div class="preview_container flex flex-center gap-s p-x-small">
+                    <img class="img_responsive br-s" src="../../vendors/image.jfif" alt="">
+                    <img class="img_responsive br-m" src="../../vendors/image.jfif" alt="">
+                    <img class="img_responsive br-l" src="../../vendors/image.jfif" alt="">
+                    <img class="img_responsive br-circle" src="../../vendors/image.jfif" alt="">
+                </div>
+                <div>
+                    <iframe src="https://www.thiscodeworks.com/embed/61fbb3576ab14d0015c32d37"
+                        style="width: 100%; height: 138px;" frameborder="0">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <aside class="page_sidebar">
+        <ul class="sidebar_list">
+            <li class="page_sidebar_list_header">On this Page</li>
+            <hr>
+            <li><a class="btn_doc btn_doc_light fs-xs" href="#image">Image</a></li>
+            <li><a class="btn_doc btn_doc_light fs-xs" href="#image_example">Example of Responsive<br> Images</a></li>
+            <li><a class="btn_doc btn_doc_light fs-xs" href="#image_with_border_radius">Images with different<br> Border Radius</a></li>
+        </ul>
+    </aside>
+    <footer class='footer'>
+        <div class='footer-header'>Social Media Presence</div>
+        <ul class='social-links list-non-bullet'>
+            <li class='list-item-inline'><a class='footer-link link' href="https://github.com/ultronjs">Github</a></li>
+            <li class='list-item-inline'><a class='footer-link link'
+                    href="https://www.linkedin.com/in/swapnil-bansal">LinkedIn</a></li>
+            <li class='list-item-inline'><a class='footer-link link'
+                    href="https://twitter.com/ultronSwapnil">Twitter</a></li>
+            <li class='list-item-inline'><a class='footer-link link'
+                    href="https://www.instagram.com/ul7ron/">Instagram</a></li>
+        </ul>
+        <div>Designed and built with all the love in the world by the Swapnil🚀</div>
+    </footer>
+
+</body>
+
+</html>

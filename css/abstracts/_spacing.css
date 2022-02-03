@@ -174,3 +174,18 @@
     padding-left: 6.4rem;
     padding-right: 6.4rem;
 }
+
+/*Gap*/
+.gap-s {
+    gap: 5px;
+}
+
+.gap-m {
+    gap: 1rem;
+}
+
+.gap-l {
+    gap: 1.5rem;
+}
+
+
