@@ -1,3 +1,13 @@
+.text_left{
+    text-align: left;
+}
+.text_center{
+    text-align: center;
+}
+
+.text_right{
+    text-align: right;
+}
 .position_relative {
     position: relative;
 }

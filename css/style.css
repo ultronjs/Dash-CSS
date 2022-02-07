@@ -10,6 +10,7 @@
 
 @import url("abstracts/_variables.css");
 @import url("abstracts/_spacing.css");
+@import url("abstracts/_greyText.css");
 
 /*---Components Design---*/
 @import url("components/avatar.css");
