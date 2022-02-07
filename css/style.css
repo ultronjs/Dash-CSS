@@ -19,6 +19,7 @@
 @import url("components/badge.css");
 @import url("components/card.css");
 @import url("components/_input.css");
+@import url("components/toast.css");
 
 /*---Layout---*/
 @import url("layout/_position.css");
