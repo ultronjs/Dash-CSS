@@ -1,0 +1,157 @@
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dash CSS</title>
+    <link rel="icon" type="image/x-icon" href="../../../resources/logo.png">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="../pagesStyle.css">
+    <link rel="stylesheet" href="../../style.css">
+</head>
+
+<body>
+    <nav class="nav_bar">
+        <div class="nav_left_side">
+            <img class="nav_logo" src="../../../resources/logo.png" alt="logo">
+            <span><a class="heading_link" href="google.com">dashcss</a></span>
+        </div>
+        <div class="nav_right_side">
+            <span><a class="heading_link" href="#">Docs</a></span>
+            <span><a class="heading_link" href="#">Blog</a></span>
+            <span><a class="heading_link" href="#">
+                    <i class="header_icon link fa fa-github fa-lg">
+                    </i>
+                </a></span>
+        </div>
+
+    </nav>
+    <aside class="sidebar">
+        <ul class="sidebar_list">
+            <li><a class="btn_doc btn_doc_light" href="../gettingStarted/gettingStarted.html">Getting Started</a></li>
+            <li><a class="btn_doc btn_doc_light" href="../avatar/avatar.html">Avatar</a></li>
+            <li><a class="btn_doc btn_doc_light" href="../alert/alert.html">Alert</a></li>
+            <li><a class="btn_doc btn_doc_light" href="../badge/badge.html">Badge</a></li>
+            <li><a class="btn_doc btn_doc_light" href="../button/button.html">Button</a></li>
+            <li><a class="btn_doc btn_doc_light" href="../card/card.html">Card</a></li>
+            <li><a class="btn_doc btn_doc_light" href="../image/image.html">Image</a></li>
+            <li><a class="btn_doc btn_doc_light" href="../input/input.html">Input</a></li>
+            <li><a class="btn_doc btn_doc_light" href="../utilities/utilities.html">Text Utilities</a></li>
+            <li><a class="btn_doc btn_doc_light btn_doc_selected" href="../toast/toast.html">Toast</a></li>
+        </ul>
+    </aside>
+    <div class="main_container">
+        <div id="toast">
+            <h3 class="main_container_heading fs-m py-x-small my-x-small">Toast</h3>
+            <p class="main_container_description py-x-small my-x-small">Toasts are lightweight notifications designed to
+                mimic the push notifications that have been popularized by mobile and desktop operating systems. They’re
+                built with flexbox, so they’re easy to align and position</p>
+        </div>
+        <div id="toast_example">
+            <h3 class="main_container_heading fs-m py-x-small my-x-small">Types of Toast and Live Demo</h3>
+            <hr>
+            <p class="main_container_description py-x-small my-x-small">In Dash CSS we have majorly 4 types of toast i.e success,warning 
+                info and error.And we have 2 class for the positioning of the toast(can see that by clciking on the button in Preview Area)</p>
+            <div>
+                <div class="preview_container p-x-small">
+                    <div class="toast_wrapper my-x-small">
+                    <div class="toast toast_success">
+                        <i class="far fa-shield-check fa-2x toast_icon"></i>
+                        <div class="toast_content">
+                            <span class="toast_heading">Success</span>
+                            <span class="toast_body">Your changes are saved successfully</span>
+                        </div>
+                        <i class="far fa-times-circle fa-lg toast_dismiss"></i>
+                    </div>
+                    </div>
+                    <div class="toast_wrapper my-x-small">
+                    <div class="toast toast_warning">
+                        <i class="far fa-exclamation-circle fa-2x toast_icon"></i>
+                        <div class="toast_content">
+                            <span class="toast_heading">Warning</span>
+                            <span class="toast_body">Username you have entered is invalid</span>
+                        </div>
+                        <i class="far fa-times-circle fa-lg toast_dismiss"></i>
+                    </div>
+                    </div>
+                    <div class="toast_wrapper my-x-small">
+                    <div class="toast toast_info">
+                        <i class="far fa-info-circle fa-2x toast_icon"></i>
+                        <div class="toast_content">
+                            <span class="toast_heading">Info</span>
+                            <span class="toast_body">New settings available on your account.</span>
+                        </div>
+                        <i class="far fa-times-circle fa-lg toast_dismiss"></i>
+                    </div>
+                    </div>
+                    <div class="toast_wrapper my-x-small">
+                    <div class="toast toast_error">
+                        <i class="far fa-times-circle fa-2x toast_icon"></i>
+                        <div class="toast_content">
+                            <span class="toast_heading">Error</span>
+                            <span class="toast_body">Error has occured while saving changes</span>
+                        </div>
+                        <i class="far fa-times-circle fa-lg toast_dismiss"></i>
+                    </div>
+                    </div>
+                    <div class="text_center">Click the button below to show a toast (positioned with our .toast_baseline and .toast_leading class in the lower left corner
+                        and center) that has been hidden by default with .hide .<br>
+                    <button class="btn btn_primary_outline toggle_baseline" type="button">Live Baseline Toast Example</button>
+                    <button class="btn btn_primary_outline toggle_leading" type="button">Live Leading Toast Example</button>
+                    </div>
+                </div>
+                <div>
+                    <iframe src="https://www.thiscodeworks.com/embed/62017006ed723a001551c02c"
+                        style="width: 100%; height: 606px;" frameborder="0">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <aside class="page_sidebar">
+        <ul class="sidebar_list">
+            <li class="page_sidebar_list_header">On this Page</li>
+            <hr>
+            <li><a class="btn_doc btn_doc_light fs-xs" href="#toast">Toast</a></li>
+            <li><a class="btn_doc btn_doc_light fs-xs" href="#toast_example">Types of Toast</a></li>
+        </ul>
+    </aside>
+    <div class="toast_wrapper toast_baseline hide my-x-small">
+        <div class="toast toast_success">
+            <i class="far fa-shield-check fa-2x toast_icon"></i>
+            <div class="toast_content">
+                <span class="toast_heading">Success</span>
+                <span class="toast_body">Your changes are saved successfully</span>
+            </div>
+            <i class="far fa-times-circle fa-lg toast_dismiss"></i>
+        </div>
+    </div>
+    <div class="toast_wrapper toast_leading hide my-x-small">
+        <div class="toast toast_success">
+            <i class="far fa-shield-check fa-2x toast_icon"></i>
+            <div class="toast_content">
+                <span class="toast_heading">Success</span>
+                <span class="toast_body">Your changes are saved successfully</span>
+            </div>
+            <i class="far fa-times-circle fa-lg toast_dismiss"></i>
+        </div>
+    </div>
+    <footer class='footer'>
+        <div class='footer-header'>Social Media Presence</div>
+        <ul class='social-links list-non-bullet'>
+            <li class='list-item-inline'><a class='footer-link link' href="https://github.com/ultronjs">Github</a></li>
+            <li class='list-item-inline'><a class='footer-link link'
+                    href="https://www.linkedin.com/in/swapnil-bansal">LinkedIn</a></li>
+            <li class='list-item-inline'><a class='footer-link link'
+                    href="https://twitter.com/ultronSwapnil">Twitter</a></li>
+            <li class='list-item-inline'><a class='footer-link link'
+                    href="https://www.instagram.com/ul7ron/">Instagram</a></li>
+        </ul>
+        <div>Designed and built with all the love in the world by the Swapnil🚀</div>
+    </footer>
+    <script src="./toast.js"></script>
+</body>
+
+</html>
