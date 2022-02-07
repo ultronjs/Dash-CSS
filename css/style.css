@@ -1,23 +1,23 @@
 /*---Google Font---*/
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
 
-/*---Components Design---*/
-@import url("components/avatar.css");
-@import url("components/alert.css");
-@import url("components/button.css");
-@import url("components/badge.css");
-@import url("components/card.css");
-@import url("components/image.css");
+/*---Base---*/
+
+@import url("base/_reset.css");
+@import url("base/_typography.css");
 
 /*---Abstracts---*/
 
 @import url("abstracts/_variables.css");
 @import url("abstracts/_spacing.css");
 
-/*---Base---*/
-
-@import url("base/_reset.css");
-@import url("base/_typography.css");
+/*---Components Design---*/
+@import url("components/avatar.css");
+@import url("components/alert.css");
+@import url("components/button.css");
+@import url("components/badge.css");
+@import url("components/card.css");
+@import url("components/_input.css");
 
 /*---Layout---*/
 @import url("layout/_position.css");

@@ -73,6 +73,10 @@
     --white: #ffffff;
     --black:#000000;
 
+    --input-active: #e6e6e6;
+    --input-success: #047857;
+    --input-fail: #bc1c1c;
+
     --border-radius: 25px;
     --font-weight-bold: bold;
 
