@@ -22,3 +22,8 @@ ion-icon {
     height: 2rem;
     width: 2rem;
 }
+
+input{
+  outline: none;
+  border: none;
+}

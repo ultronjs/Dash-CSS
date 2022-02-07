@@ -73,7 +73,11 @@
     --white: #ffffff;
     --black:#000000;
 
-    --border-radius: 25px;
+    --input-active: #e6e6e6;
+    --input-success: #047857;
+    --input-fail: #bc1c1c;
+
+    --border-radius: 1.5625rem;
     --font-weight-bold: bold;
 
     --badge-font-size: .75em;

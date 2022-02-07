@@ -1,0 +1,87 @@
+.input_group {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem 1rem;
+}
+
+input{
+  border: 1px solid var(--grey-color-300);
+}
+
+.input_label {
+  margin-bottom: 0.5rem;
+}
+
+.input_mandatory {
+  border-color: var(--input-fail);
+  font-size: inherit;
+}
+
+.input_small {
+  font-size: 1rem;
+  padding: 0.25rem 0.5rem;
+}
+
+.input_regular {
+  font-size: 1.25rem;
+  padding: 0.5rem 0.625rem;
+}
+
+.input_large {
+  font-size: 1.5rem;
+  padding: 0.625rem 0.75rem;
+}
+
+.input_round {
+  border-radius: 9999px;
+}
+
+.input_corner {
+  border-radius: 6px;
+}
+
+.active:focus {
+  border-color: var(--black);
+  background-color: var(--input-active);
+}
+
+.input_validation {
+  display: inline-flex;
+  align-items: center;
+  font-weight: 600;
+  margin-top: 0.125rem;
+  gap: 5px;
+}
+
+.input_validation_small {
+  font-size: 0.75rem;
+}
+
+.input_validation_regular {
+  font-size: 0.875rem;
+}
+
+.input_validation_large {
+  font-size: 1rem;
+}
+
+.input_validation_success {
+  color: var(--input-success);
+}
+
+.input_validation_fail {
+  color: var(--input-fail);
+}
+
+.input_success {
+  border-color: var(--input-success);
+}
+
+.input_fail {
+  border-color: var(--input-fail);
+}
+
+.input_validation .validation_icon {
+  font-size: inherit;
+  margin-right: 0.25rem;
+}

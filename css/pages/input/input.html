@@ -1,0 +1,154 @@
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dash CSS</title>
+    <link rel="icon" type="image/x-icon" href="../../../resources/logo.png">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+            integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+            crossorigin="anonymous" />
+    <link rel="stylesheet" href="../pagesStyle.css">
+    <link rel="stylesheet" href="../../style.css">
+</head>
+
+<body>
+    <nav class="nav_bar">
+        <div class="nav_left_side">
+            <img class="nav_logo" src="../../../resources/logo.png" alt="logo">
+            <span><a class="heading_link" href="../../../index.html">dashcss</a></span>
+        </div>
+        <div class="nav_right_side">
+            <span><a class="heading_link" href="../../pages/gettingStarted/gettingStarted.html">Docs</a></span>
+            <span><a class="heading_link" href="#">Blog</a></span>
+            <span><a class="heading_link" href="google.com">
+                    <i class="header_icon link fa fa-github fa-lg">
+                </i></a>
+            </span>
+        </div>
+
+    </nav>
+    <aside class="sidebar">
+        <ul class="sidebar_list">
+            <li><a class="btn_doc btn_doc_light" href="../gettingStarted/gettingStarted.html">Getting Started</a></li>
+            <li><a class="btn_doc btn_doc_light" href="../avatar/avatar.html">Avatar</a></li>
+            <li><a class="btn_doc btn_doc_light" href="../alert/alert.html">Alert</a></li>
+            <li><a class="btn_doc btn_doc_light" href="../badge/badge.html">Badge</a></li>
+            <li><a class="btn_doc btn_doc_light" href="../button/button.html">Button</a></li>
+            <li><a class="btn_doc btn_doc_light" href="../card/card.html">Card</a></li>
+            <li><a class="btn_doc btn_doc_light" href="../image/image.html">Image</a></li>
+            <li><a class="btn_doc btn_doc_light btn_doc_selected" href="../input/input.html">Input</a></li>
+
+        </ul>
+    </aside>
+    <div class="main_container">
+        <div id="input">
+            <h3 class="main_container_heading fs-m py-x-small my-x-small">Input</h3>
+            <p class="main_container_description py-x-small my-x-small">Inputs are necessary for user interaction with
+                the website. Inputs are used to take information from the user, and then save the data to the server,
+                accordingly.</p>
+        </div>
+        <div id="input_types">
+            <h3 class="main_container_heading fs-m py-x-small my-x-small">Input Types</h3>
+            <hr>
+            <p class="main_container_description py-x-small my-x-small">In Dash CSS we have multiple types of input.As shown in the below example you can see 
+                we have 3 types on the basis of sizes i.e small,regular and large and two based on border-radius :- completely rounded corner and
+                semi-rounded corner.  
+            </p>
+            <div>
+                <div class="preview_container p-x-small">
+                    <div class="input_group">
+                        <label class="input_label">Small Input</label>
+                        <input class="input_small" placeholder="Enter Username">
+                    </div>
+                    <div class="input_group">
+                        <label class="input_label">Medium Input</label>
+                        <input class="input_regular" placeholder="Enter Username">
+                    </div>
+                    <div class="input_group">
+                        <label class="input_label">Large Input</label>
+                        <input class="input_large" placeholder="Enter Username">
+                    </div>
+                    <div class="input_group">
+                        <label class="input_label">Rounded Corner Regular Input</label>
+                        <input class="input_regular input_round" placeholder="Enter Username">
+                    </div>
+                    <div class="input_group">
+                        <label class="input_label">Rounded Regular Input</label>
+                        <input class="input_regular input_corner" placeholder="Enter Username">
+                    </div>
+                    <div class="input_group">
+                        <label class="input_label">Active Regular Input</label>
+                        <input class="input_regular active" placeholder="Enter Username">
+                    </div>
+                    <div class="input_group">
+                        <label class="input_label">Mandatory Regular Input*</label>
+                        <input class="input_regular input_mandatory" placeholder="Enter Username">
+                    </div>
+                    <div class="input_group">
+                        <label class="input_label">Text Area</label>
+                        <textarea class="input_regular" placeholder="Enter Username"></textarea>
+                    </div>
+                </div>
+                <div>
+                    <iframe src="https://www.thiscodeworks.com/embed/6200d93e4dd44f0015f3cd7d"
+                        style="width: 100%; height: 450px;" frameborder="0">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+
+        <div id="input_validation">
+            <h3 class="main_container_heading fs-m py-x-small my-x-small">Input Validiation</h3>
+            <p class="main_container_description py-x-small my-x-small">We also have input based on validation. ie Successful validation and Failure Validation
+            </p>
+            <div>
+                <div class="preview_container p-x-small">
+                    <div class="input_group">
+                        <label class="input_label">Success Validation</label>
+                        <input class="input_regular input_success" placeholder="Enter Username">
+                        <label class="input_validation input_validation_regular input_validation_success"><i
+                                class="fas fa-shield-check"></i>Success</label>
+                    </div>
+                    <div class="input_group">
+                        <label class="input_label">Failure Validation</label>
+                        <input class="input_regular input_fail" placeholder="Enter Username">
+                        <label class="input_validation input_validation_regular input_validation_fail"><i
+                                class="fas fa-times-octagon"></i>Failure</label>
+                    </div>
+                </div>
+                <div>
+                    <iframe src="https://www.thiscodeworks.com/embed/6200d9a04dd44f0015f3cd7e"
+                        style="width: 100%; height: 242px;" frameborder="0">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <aside class="page_sidebar">
+        <ul class="sidebar_list">
+            <li class="page_sidebar_list_header">On this Page</li>
+            <hr>
+            <li><a class="btn_doc btn_doc_light fs-xs" href="#input">Input</a></li>
+            <li><a class="btn_doc btn_doc_light fs-xs" href="#input_types">Input Types</a></li>
+            <li><a class="btn_doc btn_doc_light fs-xs" href="#input_validation">Input Validation</a></li>
+        </ul>
+    </aside>
+    <footer class='footer'>
+        <div class='footer-header'>Social Media Presence</div>
+        <ul class='social-links list-non-bullet'>
+            <li class='list-item-inline'><a class='footer-link link' href="https://github.com/ultronjs">Github</a></li>
+            <li class='list-item-inline'><a class='footer-link link'
+                    href="https://www.linkedin.com/in/swapnil-bansal">LinkedIn</a></li>
+            <li class='list-item-inline'><a class='footer-link link'
+                    href="https://twitter.com/ultronSwapnil">Twitter</a></li>
+            <li class='list-item-inline'><a class='footer-link link'
+                    href="https://www.instagram.com/ul7ron/">Instagram</a></li>
+        </ul>
+        <div>Designed and built with all the love in the world by the Swapnil🚀</div>
+    </footer>
+
+</body>
+
+</html>
