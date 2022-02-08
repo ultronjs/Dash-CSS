@@ -65,7 +65,7 @@ body {
 .sidebar {
     grid-area: sideBar;
     position: fixed;
-    top: 70px;
+    top: 4.375rem;
     left: 1rem;
     overflow-y: auto;
 }
@@ -148,7 +148,7 @@ iframe{
     text-align: center;
     color: var(--black);
     border-top-right-radius: 1rem;
-    border-top: 1px solid black;
+    border-top: 1px solid var(--black);
     position: relative;
     z-index: 1;
 }
