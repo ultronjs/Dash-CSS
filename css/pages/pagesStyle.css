@@ -67,6 +67,7 @@ body {
     position: fixed;
     top: 70px;
     left: 1rem;
+    overflow-y: auto;
 }
 
 .sidebar_list {
@@ -142,12 +143,14 @@ iframe{
 /*footer*/
 .footer {
     grid-area: footer;
-    background-color: var(--gre);
+    background-color: var(--white);
     padding: 0.75rem 1rem;
     text-align: center;
     color: var(--black);
     border-top-right-radius: 1rem;
     border-top: 1px solid black;
+    position: relative;
+    z-index: 1;
 }
 
 .footer .footer-header {
