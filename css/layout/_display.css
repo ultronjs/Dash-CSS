@@ -22,6 +22,52 @@
     align-items: center;
     justify-content: center;
 }
+.flex-ai-center{
+    align-items: center;
+}
+.flex-ai-flex-start{
+    align-items:flex-start;
+}
+.flex-ai-flex-end{
+    align-items: flex-end;
+}
+.flex-ai-baseline{
+    align-items: baseline;
+}
+.flex-ai-stretch{
+    align-items:stretch;
+}
+.flex-jc-center{
+    justify-content: center;
+}
+.flex-jc-flex-start{
+    justify-content:flex-start;
+}
+.flex-jc-flex-end{
+    justify-content: flex-end;
+}
+.flex-jc-baseline{
+    justify-content: baseline;
+}
+.flex-jc-stretch{
+    justify-content:stretch;
+}
+.flex-ac-center{
+    align-content: center;
+}
+.flex-ac-flex-start{
+    align-content:flex-start;
+}
+.flex-ac-flex-end{
+    align-content: flex-end;
+}
+.flex-ac-baseline{
+    align-content: baseline;
+}
+.flex-ac-stretch{
+    align-content:stretch;
+}
+
 
 /* grid */
 
