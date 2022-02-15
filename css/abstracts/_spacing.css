@@ -49,6 +49,46 @@
     margin: 2.4rem;
 }
 
+/* top margin */
+.mt-x-small {
+    margin-top: 0.4rem;
+}
+
+.mt-small {
+    margin-top: 1.6rem;
+}
+
+.mt-mid {
+    margin-top: 2.4rem;
+}
+
+.mt-large {
+    margin-top: 3.2rem;
+}
+
+.mt-x-large {
+    margin-top: 6.4rem;
+}
+/* bottom margin */
+.mb-x-small {
+    margin-bottom: 0.4rem;
+}
+
+.mb-small {
+    margin-bottom: 1.6rem;
+}
+
+.mb-mid {
+    margin-bottom: 2.4rem;
+}
+
+.mb-large {
+    margin-bottom: 3.2rem;
+}
+
+.mb-x-large {
+    margin-bottom: 6.4rem;
+}
 /* vertical margin */
 .my-x-small {
     margin-top: 0.4rem;
@@ -74,7 +114,38 @@
     margin-top: 6.4rem;
     margin-bottom: 6.4rem;
 }
-
+/* left margin */
+.ml-x-small {
+    margin-left: 0.4rem;
+}
+.ml-small {
+    margin-left: 1.6rem;
+}
+.ml-mid {
+    margin-left: 2.4rem;
+}
+.ml-large {
+    margin-left: 3.2rem;
+}
+.ml-x-large {
+    margin-left: 6.4rem;
+}
+/* bottom margin */
+.mr-x-small {
+    margin-right: 0.4rem;
+}
+.mr-small {
+    margin-right: 1.6rem;
+}
+.mr-mid {
+    margin-right: 2.4rem;
+}
+.mr-large {
+    margin-right: 3.2rem;
+}
+.mr-x-large {
+    margin-right: 6.4rem;
+}
 /*horizontal margins */
 .mx-x-small {
     margin-left: 0.8rem;
@@ -123,6 +194,48 @@
     padding: 6.4rem;
 }
 
+/*top padding  */
+.pt-x-small {
+    padding-top: 0.8rem;
+}
+
+.pt-small {
+    padding-top: 1.6rem;
+}
+
+.pt-mid {
+    padding-top: 2.4rem;
+}
+
+.pt-large {
+    padding-top: 3.2rem;
+}
+
+.pt-x-large {
+    padding-top: 6.4rem;
+}
+
+/*bottom padding  */
+.pb-x-small {
+    padding-bottom: 0.8rem;
+}
+
+.pb-small {
+    padding-bottom: 1.6rem;
+}
+
+.pb-mid {
+    padding-bottom: 2.4rem;
+}
+
+.pb-large {
+    padding-bottom: 3.2rem;
+}
+
+.pb-x-large {
+    padding-bottom: 6.4rem;
+}
+
 /*vertical padding  */
 .py-x-small {
     padding-top: 0.8rem;
@@ -147,6 +260,48 @@
 .py-x-large {
     padding-top: 6.4rem;
     padding-bottom: 6.4rem;
+}
+
+/* left padding */
+.pl-x-small {
+    padding-left: 0.8rem;
+}
+
+.pl-small {
+    padding-left: 1.6rem;
+}
+
+.pl-mid {
+    padding-left: 2.4rem;
+}
+
+.pl-large {
+    padding-left: 3.2rem;
+}
+
+.pl-x-large {
+    padding-left: 6.4rem;
+}
+
+/* right padding */
+.pr-x-small {
+    padding-right: 0.8rem;
+}
+
+.pr-small {
+    padding-right: 1.6rem;
+}
+
+.pr-mid {
+    padding-right: 2.4rem;
+}
+
+.pr-large {
+    padding-right: 3.2rem;
+}
+
+.pr-x-large {
+    padding-right: 6.4rem;
 }
 
 /* horizontal padding */

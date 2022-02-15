@@ -13,12 +13,19 @@
     margin: .5rem 0;
 }
 
-.btn_floating {
+.btn_floating_preview {
     box-shadow: 0 6px 10px 0 #666;
     border-radius: 50px;
 
 }
-
+.btn_floating{
+    box-shadow: 0 6px 10px 0 #666;
+    border-radius: 50px;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    z-index: 1;
+}
 .btn_icon {
     height: 1.1rem;
     width: 1.1rem;
