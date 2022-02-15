@@ -37,6 +37,15 @@
 .flex-ai-stretch{
     align-items:stretch;
 }
+.flex-ai-space-around{
+    align-items:space-around;
+}
+.flex-ai-space-between{
+    align-items:space-between;
+}
+.flex-ai-space-evenly{
+    align-items:space-evenly;
+}
 .flex-jc-center{
     justify-content: center;
 }
@@ -52,6 +61,15 @@
 .flex-jc-stretch{
     justify-content:stretch;
 }
+.flex-jc-space-around{
+    justify-content:space-around;
+}
+.flex-jc-space-between{
+    justify-content:space-between;
+}
+.flex-jc-space-evenly{
+    justify-content:space-evenly;
+}
 .flex-ac-center{
     align-content: center;
 }
@@ -66,6 +84,15 @@
 }
 .flex-ac-stretch{
     align-content:stretch;
+}
+.flex-ac-space-around{
+    align-content:space-around;
+}
+.flex-ac-space-between{
+    align-content:space-between;
+}
+.flex-ac-space-evenly{
+    align-content:space-evenly;
 }
 
 
