@@ -51,6 +51,8 @@ body {
 
 .nav_right_side {
     display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 1rem;
     font-size: 1rem;
     font-weight: 600;
@@ -70,6 +72,7 @@ body {
     left: 1rem;
     overflow-y: auto;
     padding-right: 0.5rem;
+    height: 75vh;
 }
 
 .sidebar_list {
@@ -143,6 +146,7 @@ iframe{
     right: 0.2rem;
     padding-right: 1.8rem;
     overflow-y: auto;
+    height: 75vh;
 }
 
 /*footer*/
@@ -188,7 +192,7 @@ iframe{
 }
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #f1f1f1; 
+  background: var(--grey_dark_background); 
 }
  
 /* Handle */
@@ -200,7 +204,13 @@ iframe{
 ::-webkit-scrollbar-thumb:hover {
   background: var(--secondary-700); 
 }
-
+code{
+    font-family: Consolas,"courier new";
+    color: var(--primary-color);
+    background-color: var(--grey_dark_background);
+    padding: 2px;
+    font-size: 105%;
+}
 
 /* Pages Styling */
 .preview_container{
@@ -245,7 +255,7 @@ iframe{
     grid-template-areas:
         "nav"
         "mainContainer"
-        "footer footer";
+        "footer";
     }
     .page_sidebar{
         display: none;
