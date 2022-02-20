@@ -29,7 +29,7 @@ body {
     left: 0;
     right: 0;
     z-index: 10;
-    background-color: white;
+    background-color: var(--white);
 }
 
 .nav_left_side {
@@ -66,8 +66,10 @@ body {
     grid-area: sideBar;
     position: fixed;
     top: 4.375rem;
+    bottom: 0;
     left: 1rem;
     overflow-y: auto;
+    padding-right: 0.5rem;
 }
 
 .sidebar_list {
@@ -137,7 +139,10 @@ iframe{
     grid-area: pageSideBar;
     position: fixed;
     top: 70px;
-    right: 4rem;
+    bottom: 0;
+    right: 0.2rem;
+    padding-right: 1.8rem;
+    overflow-y: auto;
 }
 
 /*footer*/
@@ -176,10 +181,80 @@ iframe{
     padding: 0rem 0.5rem;
 }
 
+/*Styling ScrollBar*/
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background:var(--secondary-500); 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--secondary-700); 
+}
 
 
 /* Pages Styling */
 .preview_container{
     border: 1px solid var(--grey-color-200);
     border-radius: 0.5rem ;
+}
+
+@media only screen and (max-width: 1200px) {
+    body {
+    display: grid;
+    grid-template-columns: 0.4fr 1.5fr 0.4fr;
+    grid-template-rows: 0.4fr 3.2fr 0.4fr;
+    grid-template-areas:
+        "nav nav nav"
+        "sideBar mainContainer pageSideBar"
+        "footer footer footer";
+    }
+}
+@media only screen and (max-width: 960px) {
+    body {
+    display: grid;
+    grid-template-columns: 0.4fr 1.5fr;
+    grid-template-rows: 0.4fr 3.2fr 0.4fr;
+    grid-template-areas:
+        "nav nav"
+        "sideBar mainContainer"
+        "footer footer";
+    }
+    .page_sidebar{
+        display: none;
+    }
+    .main_container{
+        padding-left:0.8rem;
+        padding-right: 0.8rem;
+    }
+}
+@media only screen and (max-width: 757px) {
+    body {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.4fr 3.2fr 0.4fr;
+    grid-template-areas:
+        "nav"
+        "mainContainer"
+        "footer footer";
+    }
+    .page_sidebar{
+        display: none;
+    }
+    .sidebar{
+        display: none;
+    }
+    .main_container{
+        padding-left:0.8rem;
+        padding-right: 0.8rem;
+    }
 }
