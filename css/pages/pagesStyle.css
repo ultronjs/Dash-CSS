@@ -133,6 +133,7 @@ body {
 .main_container {
     grid-area: mainContainer;
     padding-top: 80px;
+    padding-bottom: 1rem;
 }
 iframe{
     width: 100%;

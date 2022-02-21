@@ -19,7 +19,7 @@ body{
     background-image: linear-gradient(to bottom, rgb(250, 250, 250), rgba(141, 134, 240, 0.73)),
     url('./resources/background.jpg');
     /* background-size: 100%; */
-    background-size:100%;
+    background-size:cover;
 }
 
 .nav_bar{
@@ -59,22 +59,25 @@ body{
     color: var(--black);
 }
 .main_container {
+    height: 100vh;
     display: flex;
     flex-flow: column wrap;
     align-content: center;
     align-items: center;
+    justify-content: center;
     gap: 1rem;
-    margin: 6.25rem;
 }
 
 .main_container h1{
     font-size: 5rem;
     font-weight: 800;
-    padding-left: 6.25rem;
+    text-align: center;
 }
+
 .main_container h3 {
     font-size: 3rem;
     font-weight: 700;
+    text-align: center;
 }
 
 .btn {
@@ -116,3 +119,53 @@ body{
     font-weight: 500;
 }
 
+@media screen and (max-width: 1215px) {
+    .main_container h1{
+        font-size: 4rem;
+        font-weight: 700;
+        text-align: center;
+    }
+    .main_container h3 {
+        font-size: 2rem;
+        font-weight: 500;
+    }
+}
+
+@media screen and (max-width: 865px) {
+    .main_container h1{
+        font-size: 3rem;
+        font-weight: 700;
+        text-align: center;
+    }
+    .main_container h3 {
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+    .btn{
+        font-size: 1.5rem;
+    }
+}
+
+
+@media screen and (max-width: 573px) {
+    .main_container h1{
+        font-size: 2rem;
+        font-weight: 700;
+        text-align: center;
+    }
+    .main_container h3 {
+        font-size: 1rem;
+        font-weight: 500;
+    }
+    .btn{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 383px) {
+    .main_container h1{
+        font-size: 1.5rem;
+        font-weight: 600;
+        text-align: center;
+    }
+}
