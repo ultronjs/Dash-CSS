@@ -94,6 +94,9 @@
 .flex-ac-space-evenly{
     align-content:space-evenly;
 }
+.flex-wrap{
+    flex-wrap: wrap;
+}
 
 
 /* grid */

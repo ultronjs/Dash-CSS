@@ -133,7 +133,10 @@ body {
 .main_container {
     grid-area: mainContainer;
     padding-top: 80px;
-    padding-bottom: 1rem;
+}
+.main_container_footer_link{
+    color: var(--primary-color);
+    font-weight: 500;
 }
 iframe{
     width: 100%;
