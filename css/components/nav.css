@@ -1,0 +1,40 @@
+/*Navigation Custom CSS*/
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color:white;
+    padding: 0.5rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+.navbar_preview{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color:white;
+    padding: 0.5rem;    
+
+}
+.nav_right_side{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.img_logo{
+    height: 3.125rem;
+    width: 12.5rem;
+}
+/*Custom size of icon for the nav bar*/
+.fa-2x{
+    font-size: 1.6em;
+}
+.link_wrapper{
+    text-decoration: none;
+    color: inherit;
+}
