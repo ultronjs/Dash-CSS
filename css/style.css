@@ -16,6 +16,7 @@
 @import url("components/modal.css");
 @import url("components/list.css");
 @import url("components/nav.css");
+@import url("components/rating.css");
 
 /*---Layout---*/
 @import url("layout/_position.css");
