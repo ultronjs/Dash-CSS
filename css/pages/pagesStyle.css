@@ -219,7 +219,9 @@ code{
 /* Pages Styling */
 .preview_container{
     border: 1px solid var(--grey-color-200);
-    border-radius: 0.5rem ;
+    border-bottom: 1px solid white;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
 }
 
 @media only screen and (max-width: 1200px) {
