@@ -1,0 +1,45 @@
+.circle_list{
+    list-style-type: circle;
+}
+.square_list{
+    list-style-type: square;
+}
+.filled_circle_list{
+    list-style-type: disc
+}   
+
+.upper_roman_list{
+    list-style-type: upper-roman;
+}
+.lower_roman_list{
+    list-style-type: lower-roman;
+}
+.alphabet_list{
+    list-style-type: lower-alpha;
+}
+.one_line_list{
+ padding: 5px 10px;
+ width: 800px;
+ border: 1px solid lightgray;
+ border-radius: 5px;
+}
+.one_line_list li{
+    padding: 2px 5px;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.one_line_list li:hover,.two_line_list li:hover{
+    background-color: lightgray;
+    border-radius: 5px;  
+}
+.two_line_list li,.notification_list li{
+    padding: 2px 5px;
+    cursor: pointer;
+}
+.two_line_list_title,.notification_list_title{
+    font-size: 1.5rem;
+}
+.two_line_list_secondary,.notification_list_secondary{
+    font-size: .75rem;
+    color: gray;
+}
