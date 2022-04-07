@@ -39,84 +39,56 @@
             <li><a class="btn_doc btn_doc_light" href="../list/list.html">Lists</a></li>
             <li><a class="btn_doc btn_doc_light" href="../nav/nav.html">Navigation</a></li>
             <li><a class="btn_doc btn_doc_light" href="../rating/rating.html">Rating</a></li>
-            <li><a class="btn_doc btn_doc_light" href="../slider/slider.html">Slider</a></li>
+            <li><a class="btn_doc btn_doc_light btn_doc_selected" href="../slider/slider.html">Slider</a></li>
             <li><a class="btn_doc btn_doc_light" href="../utilities/utilities.html">Text Utilities</a></li>
             <li><a class="btn_doc btn_doc_light" href="../toast/toast.html">Toast</a></li>
-            <li><a class="btn_doc btn_doc_light btn_doc_selected" href="../modal/modal.html">Modal</a></li>
+            <li><a class="btn_doc btn_doc_light" href="../modal/modal.html">Modal</a></li>
         </ul>
     </aside>
     <div class="main_container">
-        <div id="modal">
-            <h3 class="main_container_heading fs-m py-x-small my-x-small">Modal</h3>
-            <p class="main_container_description py-x-small my-x-small">A modal is a dialog box/popup window that is
-                displayed on center of the current page:</p>
+        <div id="slider">
+            <h3 class="main_container_heading fs-m py-x-small my-x-small">Slider</h3>
+            <p class="main_container_description py-x-small my-x-small">Sider let the user specify a numeric value which
+                must be no less than a given value, and no more than another given value. The precise value, however, is
+                not considered important. This is typically represented using a slider or dial control rather than a
+                text entry box like the number input type.</p>
         </div>
-        <div id="modal_example">
-            <h3 class="main_container_heading fs-m py-x-small my-x-small">Example of Modal</h3>
+        <div id="slider_example">
+            <h3 class="main_container_heading fs-m py-x-small my-x-small">Example of Slider</h3>
             <hr>
-            <p class="main_container_description py-x-small my-x-small">Below is a static modal example (meaning its
-                position and display have been overridden). Included are the modal header, modal body (required for
-                padding), and modal footer (optional). We ask that you include modal headers with dismiss actions
-                whenever possible, or provide another explicit dismiss action</p>
+            <p class="main_container_description py-x-small my-x-small">Below show the live example of this slider.This slider component is dynamic in nature it means user can
+                change the value by clicking on it.
+            </p>
             <div>
-                <div class="preview_container p-x-small">
-                    <div class="modal_preview my-small">
-                        <div class="modal_header h4">
-                            <span>Modal Header</span>
-                            <i class="far fa-times-circle modal_dismiss"></i>
+                <div class="preview_container p-x-small flex flex-center">
+                    <div class="slider_box">
+                        <div class="slider">
+                            <input id="slider" type="range" min="0" max="100" value="20">
                         </div>
-                        <hr>
-                        <div class="modal_body">
-                            Modal body text goes here.
-                        </div>
-                        <hr>
-                        <div class="modal_footer">
-                            <button class="btn btn_dark modal_cancel_btn">Cancel</button>
-                            <button class="btn btn_secondary modal_save_btn">Save Changes</button>
-                        </div>
-                    </div>                    
-                    <div class="text_center">Click the button below to show a modal  that has been hidden by default with .hide class.<br>
-                        <button class="btn btn_primary_outline toggle_modal" type="button">Live Modal Toast
-                            Example</button>
                     </div>
+
                 </div>
                 <div>
-                    <iframe src="https://www.thiscodeworks.com/embed/6202b93d234b8a0015700bdd"
-                        style="width: 100%; height: 346px;" frameborder="0">
-                    </iframe>
+                    <iframe src="https://www.thiscodeworks.com/embed/624e92d6aa32fe001510a20a"
+                        style="width: 100%; height: 151px;" frameborder="0"></iframe>
                 </div>
             </div>
         </div>
-        <div class="main_container_footer flex flex-jc-flex-start flex-wrap py-x-small">
-            <a class="main_container_footer_link" href="../toast/toast.html"><i class="fa fa-angle-left"></i>
-                Toast</a>
+        <div class="main_container_footer flex flex-jc-space-between flex-wrap py-x-small">
+            <a class="main_container_footer_link" href="../rating/rating.html"><i class="fa fa-angle-left"></i>
+                Rating</a>
+            <a class="main_container_footer_link" href="../utilities/utilities.html">Text Utilities <i
+                    class="fa fa-angle-right"></i></a>
         </div>
 
     </div>
-    <div class= "modal_bg hide">
-        <div class="modal">
-            <div class="modal_header h4">
-                <span>Modal Header</span>
-                <i class="far fa-times-circle modal_dismiss"></i>
-            </div>
-            <hr>
-            <div class="modal_body">
-                Modal body text goes here.
-            </div>
-            <hr>
-            <div class="modal_footer">
-                <button class="btn btn_dark modal_cancel_btn">Cancel</button>
-                <button class="btn btn_secondary modal_save_btn">Save Changes</button>
-            </div>
-        </div>
-    </div>
-    
+
     <aside class="page_sidebar">
         <ul class="sidebar_list">
             <li class="page_sidebar_list_header">On this Page</li>
             <hr>
-            <li><a class="btn_doc btn_doc_light fs-xs" href="#modal">Modal</a></li>
-            <li><a class="btn_doc btn_doc_light fs-xs" href="#modal_example">Example of Modal</a></li>
+            <li><a class="btn_doc btn_doc_light fs-xs" href="#slider">Slider</a></li>
+            <li><a class="btn_doc btn_doc_light fs-xs" href="#slider_example">Example of Slider</a></li>
         </ul>
     </aside>
     <footer class='footer'>
@@ -132,7 +104,6 @@
         </ul>
         <div>Designed and built with all the love in the world by the Swapnil🚀</div>
     </footer>
-    <script src="./modal.js"></script>
 </body>
 
 </html>
