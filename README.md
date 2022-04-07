@@ -31,8 +31,13 @@ Many of Posh UI components, like Modal, Toast, and others, require the use of Ja
 - [Badge](#badge)
 - [Button](#button)
 - [Card](#card)
+- [Grids](#grids)
 - [Image](#image)
 - [Input](#input)
+- [Lists](#lists)
+- [Navigation](#navigation)
+- [Rating](#rating)
+- [Slider](#slider)
 - [Text Utilities](#typography)
 - [Toast](#toast)
 - [Modal](#modal)
@@ -114,6 +119,18 @@ You will find the following types of _Card_ on https://dash-css.netlify.app/css/
 
 ---
 
+
+### Grids
+
+Grid system uses a series of containers, rows, and columns to layout and align content. It's built with flexbox and is fully responsive.
+
+You will find the following types of _Grids_ on https://dash-css-temp.netlify.app/css/pages/grids/grids.html
+
+- Two Items in a Grid
+- Three Items in a Grid
+
+---
+
 ### Image
 
 Image can be used to display large picture on the website.
@@ -141,6 +158,57 @@ You will find the following types of _Input_ on https://dash-css.netlify.app/css
 - Text Area
 - Success Validation
 - Failure Validation
+
+---
+
+### Lists
+
+Lists are a continuous group of text or images. They are composed of items containing primary and supplemental actions, which are represented by icons and text.
+
+You will find the following types of _Lists_ on https://dash-css-temp.netlify.app/css/pages/list/list.html
+
+- Unordered List
+- Ordered List
+- One Line List
+- Two Line List
+- Notification List
+
+
+---
+
+
+### Navigation
+
+The Navbar represents a section of a page whose purpose is to provide navigation links, either within the current document or to other documents. Common examples of navigation sections are menus, tables of contents, and indexes.
+
+You will find the following types of _Navigation_ on https://dash-css-temp.netlify.app/css/pages/nav/nav.html
+
+- Simple Navigation 
+
+
+---
+
+
+### Rating
+
+Star classification is a type of rating scale utilizing a star glyph or similar typographical symbol. It is used by reviewers for ranking things such as Products on E-Com Sites etc.
+
+You will find the following types of _rating_ on https://dash-css-temp.netlify.app/css/pages/rating/rating.html
+
+- Star Rating
+
+
+---
+
+
+### Slider
+
+Sider let the user specify a numeric value which must be no less than a given value, and no more than another given value. The precise value, however, is not considered important. This is typically represented using a slider or dial control rather than a text entry box like the number input type.
+
+You will find the following types of _slider_ on https://dash-css-temp.netlify.app/css/pages/slider/slider.html
+
+- Range Slider
+
 
 ---
 
